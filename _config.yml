@@ -1,0 +1,13 @@
+# Site settings
+title: Nicholas Auger | Developer
+email: nauger@unca.edu
+description: > # this means to ignore newlines until "baseurl:"
+  My name is Nicholas Auger I'm a Developer and this is my blog. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://qkombur.com" # the base hostname & protocol for your site
+twitter_username: qkombur
+github_username:  qkombur
+paginate: 5
+
+# Build settings
+markdown: kramdown
