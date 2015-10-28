@@ -22,6 +22,10 @@
     &:visited {
         color: $grey-color-dark;
     }
+
+    @include media-query($on-palm){
+        font-size: 19px;
+    }
 }
 
 .site-nav {
@@ -50,6 +54,8 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+
+
 
         .menu-icon {
             display: block;
@@ -83,6 +89,7 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+            color: white;
         }
     }
 }
