@@ -1,6 +1,10 @@
 /**
  * Site header
  */
+
+ a:hover, a:focus {
+        color: #4487de;
+    }
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -18,11 +22,6 @@
     margin-bottom: 0;
     float: left;
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
-
     @include media-query($on-palm){
         font-size: 19px;
     }
@@ -31,6 +30,7 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    
 
     .menu-icon {
         display: none;
@@ -39,6 +39,7 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -57,6 +58,7 @@
 
 
 
+
         .menu-icon {
             display: block;
             float: right;
@@ -66,9 +68,14 @@
             padding-top: 10px;
             text-align: center;
 
+
             > svg {
                 width: 18px;
                 height: 15px;
+                &:hover {
+                    transform: rotate(90deg);
+
+                }
 
                 path {
                     fill: #fff;
@@ -79,12 +86,15 @@
         .trigger {
             clear: both;
             display: none;
+
         }
 
-        &:hover .trigger {
+        &:hover .trigger{
             display: block;
             padding-bottom: 5px;
+
         }
+
 
         .page-link {
             display: block;
@@ -249,5 +259,12 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+    a {
+        color: #4078C0;
+        transition: color 0.2s linear;
+    }
+    a:hover, a:focus {
+        color: #2A5081;
     }
 }
