@@ -7,24 +7,52 @@
 
 <url>
   <loc>http://www.qkombur.com/</loc>
-  <lastmod>2015-10-28T19:38:56+00:00</lastmod>
+  <lastmod>2015-11-08T22:11:35+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.qkombur.com/Archives/</loc>
-  <lastmod>2015-10-28T19:38:56+00:00</lastmod>
+  <lastmod>2015-11-08T22:11:35+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.qkombur.com/about/</loc>
-  <lastmod>2015-10-28T19:38:56+00:00</lastmod>
+  <lastmod>2015-11-08T22:11:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.qkombur.com/work/2015/11/08/Pex.html</loc>
+  <lastmod>2015-11-08T22:11:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.qkombur.com/work/2015/11/04/work-so-far.html</loc>
+  <lastmod>2015-11-08T22:11:35+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.qkombur.com/short/2015/10/28/short-post.html</loc>
-  <lastmod>2015-10-28T19:38:56+00:00</lastmod>
+  <lastmod>2015-11-08T22:11:35+00:00</lastmod>
+
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.qkombur.com/jekyll/2015/10/27/welcome-to-jekyll.html</loc>
-  <lastmod>2015-10-28T19:38:56+00:00</lastmod>
+  <lastmod>2015-11-08T22:11:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.qkombur.com/Pex/</loc>
+  <lastmod>2015-11-07T01:10:07+00:00</lastmod>
+
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.qkombur.com/kyletemplate/</loc>
+  <lastmod>2015-08-23T00:45:57+00:00</lastmod>
+
+  <priority>0.64</priority>
 </url>
 </urlset>
