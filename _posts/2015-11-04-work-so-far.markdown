@@ -3,6 +3,7 @@ layout: post
 title:  "My Projects So Far"
 date:   2015-11-04
 categories: Work
+subtext: "A sampling"
 ---
 
 I noticed I didn't have any of my actual projects listed here so this post will act as a sampling

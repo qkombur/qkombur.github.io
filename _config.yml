@@ -1,15 +1,17 @@
 # Site settings
-title: Nicholas Auger | Web Developer
+title: Nicholas Auger 
+header-img: img/home-bg.jpg
 email: nauger@unca.edu
-description: > # this means to ignore newlines until "baseurl:"
-  My name is Nicholas Auger I'm a Web Developer from North Carolina and this is my blog. 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://qkombur.com" # the base hostname & protocol for your site
+description: "My name is Nicholas Auger I'm a Web Developer from North Carolina and this is my blog. "
+baseurl: ""
+url: "http://www.qkombur.com"
 twitter_username: qkombur
 github_username:  qkombur
-paginate: 5
 
 # Build settings
-markdown: kramdown
 
-gems: [jekyll-paginate]
+markdown: kramdown
+permalink: pretty
+
+
+

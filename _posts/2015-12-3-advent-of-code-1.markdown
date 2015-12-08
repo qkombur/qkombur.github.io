@@ -3,6 +3,7 @@ layout: post
 title:  "Advent of Code - Day 1"
 date:   2015-12-03
 categories: puzzle
+subtext: Advent of code is like a festive project eular
 ---
 
 # [Advent of Code Day 1](http://adventofcode.com/day/1)

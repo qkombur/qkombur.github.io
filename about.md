@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+header-img: "img/post-bg-04.jpg"
 ---
 
 

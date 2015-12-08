@@ -3,6 +3,7 @@ layout: post
 title:  "Short post"
 date:   2015-10-28
 categories: short
+subtext: "Results may vary."
 ---
 
 All you need to fix an overlaping hamburger menu?

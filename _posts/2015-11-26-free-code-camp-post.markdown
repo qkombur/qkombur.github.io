@@ -3,6 +3,7 @@ layout: post
 title:  "Learning JSON with FCC"
 date:   2015-11-26
 categories: projects
+subtext: "Building apps with Free Code Camp"
 ---
 I've been using [Free Code Camp](http://www.freecodecamp.com) to learn a bit of JavaScript recently and I just wanted to share 2 of my projects they had me do. 
 

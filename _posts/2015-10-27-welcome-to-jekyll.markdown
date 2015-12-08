@@ -3,6 +3,7 @@ layout: post
 title:  "Jekyll and a New Site"
 date:   2015-10-27
 categories: jekyll
+subtext: "This is my first blog post"
 ---
 
 

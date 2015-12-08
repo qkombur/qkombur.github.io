@@ -3,6 +3,7 @@ layout: post
 title:  "Pex"
 date:   2015-11-08
 categories: Work
+subtext: "Pex is a landing page that was designed by Blaz Robar"
 ---
 
 [![Image of Pex](http://i.imgur.com/vqteVmd.jpg)](http://www.qkombur.com/Pex/)
