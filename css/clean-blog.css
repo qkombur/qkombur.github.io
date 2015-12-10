@@ -23,6 +23,12 @@ a {
   color: #404040;
 
 }
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
 a:hover,
 a:focus {
   color: #0085a1;
