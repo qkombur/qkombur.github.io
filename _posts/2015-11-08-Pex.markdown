@@ -9,6 +9,6 @@ subtext: "Pex is a landing page that was designed by Blaz Robar"
 [![Image of Pex](http://i.imgur.com/vqteVmd.jpg)](http://www.qkombur.com/Pex/)
 
 Pex is a landing page that was designed by [*Blaz Robar.*](http://blazrobar.com/2015/free-psd-website-templates/pex-a-free-website-home-page-photoshop-psd/)
-I really enjoyed the way the template looked so I decided to build it out using Jekyll and SCSS. 
+I really enjoyed the way the template looked so I decided to build it out using Jekyll and SCSS.
 You can view the website [*here*](http://www.qkombur.com/Pex). You can see the source code and how I laid it out with Jekyll [*here*](https://github.com/qkombur/Pex).
-Just watch where you step because it's very messy. Anywho I really enjoyed building this and it makes me want to design a landing page. Maybe I'll do that next.
+Just watch where you step because it's very messy. Anyhow I really enjoyed building this and it makes me want to design a landing page. Maybe I'll do that next.

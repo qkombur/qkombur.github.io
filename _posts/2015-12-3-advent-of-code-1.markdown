@@ -28,11 +28,11 @@ Advent of code is like a festive project eular. As such, I suggest you drink egg
 
 >To what floor do the instructions take Santa?
 
-Now I'm a JavaScript guy myself so I used JS. Even though anything else is faster. 
+Now I'm a JavaScript guy myself so I used JS. Even though anything else is faster.
 
 {% highlight javascript %}
 var string = very long //You get your own string.
-var floor = 0; // Start at floor zero. 
+var floor = 0; // Start at floor zero.
 for (var i = 0, len = string.length; i < len; i++) {
   if  (string[i] == "("){
     // If "(" go up a floor.
@@ -41,7 +41,7 @@ for (var i = 0, len = string.length; i < len; i++) {
     // If ")" go down a floor.
   if (string[i]== ")") {
     floor = floor - 1;
-     
+
   }  
 }
 //Print out santa's floor.
@@ -60,7 +60,7 @@ Pretty simple and really rough way to handle the problem. After debugging missin
 
 >What is the position of the character that causes Santa to first enter the basement?
 
-So this is pretty easy all you gotta do is add a check to see what floor you are on, and then print out the counter "i" and add 1 to the result.
+So this is pretty easy all you got to do is add a check to see what floor you are on, and then print out the counter "i" and add 1 to the result.
 
 {% highlight javascript %}
 

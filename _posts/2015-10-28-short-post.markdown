@@ -6,7 +6,7 @@ categories: short
 subtext: "Results may vary."
 ---
 
-All you need to fix an overlaping hamburger menu?
+All you need to fix an overlapping hamburger menu?
 
 {% highlight scss %}
 @include media-query($on-palm){
@@ -15,4 +15,3 @@ All you need to fix an overlaping hamburger menu?
 {% endhighlight %}
 
 At least this one was easy.
-
