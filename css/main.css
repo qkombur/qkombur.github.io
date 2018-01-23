@@ -40,7 +40,9 @@ h1 {
     line-height: 1.05em;
     color: #444444
 }
-
+a {
+    text-decoration: none;
+}
 
 .box-wrapper {
     display: flex;
