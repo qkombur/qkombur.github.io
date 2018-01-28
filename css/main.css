@@ -45,48 +45,36 @@ a {
 }
 
 .box-wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+    grid-template-areas:
+    "header header"
+    "content-left content-right";
     max-width: 960px;
     margin: 0 auto;
-    flex-wrap: row wrap;
-    flex-flow: row wrap;
-    padding: 0 100px 0 100px;
+    padding: 100px 100px 0 100px;
 }
 
 .box {
     flex-wrap: wrap;
     display: flex;
     border: 10px solid #444444;
-    margin: 30px auto;
     padding: 0px 30px;
     box-shadow: 0px 0px #444444, 1px 1px #444444, 2px 2px #444444, 3px 3px #444444, 4px 4px #444444, 5px 5px #444444, 6px 6px #444444, 7px 7px #444444, 8px 8px #444444, 9px 9px #444444, 10px 10px #444444, 11px 11px #444444, 12px 12px #444444, 13px 13px #444444, 14px 14px #444444, 15px 15px #444444, 16px 16px #444444, 17px 17px #444444, 18px 18px #444444, 19px 19px #444444, 20px 20px #444444, 21px 21px #444444, 22px 22px #444444, 23px 23px #444444, 24px 24px #444444, 25px 25px #444444, 26px 26px #444444, 27px 27px #444444, 28px 28px #444444, 29px 29px #444444, 30px 30px #444444;
 }
 
-.--column{
- flex-direction: column;
+.header {
+    grid-area: header;
 }
 
-
-.--left {
-    order: 1;
-    flex: 1 50%;
-
+.content-left {
+    grid-area: content-left;
 }
-
-
-.--right {
-    order: 2;
-    flex: 1 auto;
-    margin-left: 60px;
+.content-right {
+    grid-area: content-right;
 }
-
 @media all and (max-width: 1296px) {
-    .--right {
-        margin-left: 0px;
-    }
-    .box-wrapper > *{
-        flex: 1 100%;
-    }
 
 
     p, li {
@@ -104,6 +92,11 @@ a {
 @media all and (max-width:756px) {
     .box-wrapper {
         padding: 5px;
+        grid-gap: 1em;
+        grid-template-areas:
+        "header header"
+        "content-left content-left"
+        "content-right content-right";
     }
     .box {
         box-shadow: none;
