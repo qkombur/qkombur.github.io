@@ -96,7 +96,7 @@ canvas{
     grid-gap: 3em;
     max-width: 960px;
     margin: 0 auto;
-    padding: 100px 100px 0 100px;
+    padding: 100px;
 }
 
 .header {
