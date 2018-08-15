@@ -1,3 +1,5 @@
+const colorPalette = ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"];
+
 particlesJS("particles-js", {
   "particles": {
     "number": {
@@ -8,16 +10,12 @@ particlesJS("particles-js", {
       }
     },
     "color": {
-      "value": ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"]
+      "value": colorPalette
     },
     "shape": {
       "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
       "polygon": {
-        "nb_sides": 11
+        "nb_sides": 3
       }
     },
     "opacity": {
@@ -41,10 +39,10 @@ particlesJS("particles-js", {
       }
     },
     "line_linked": {
-      "enable": false,
-      "distance": 110,
-      "color": "#33b1f8",
-      "opacity": 0.25,
+      "enable": true,
+      "distance": 100,
+      "color": "#f8c210",
+      "opacity": 0.2,
       "width": 1
     },
     "move": {
@@ -56,17 +54,17 @@ particlesJS("particles-js", {
       "out_mode": "out",
       "bounce": false,
       "attract": {
-        "enable": false,
+        "enable": true,
         "rotateX": 600,
         "rotateY": 1200
       }
     }
   },
   "interactivity": {
-    "detect_on": "canvas",
+    "detect_on": "window",
     "events": {
       "onhover": {
-        "enable": true,
+        "enable": false,
         "mode": "bubble"
       },
       "onclick": {
